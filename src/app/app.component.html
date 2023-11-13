@@ -1,12 +1,14 @@
-<button
-  mat-raised-button
-  color="primary"
-  [isViewerDisabled]="isViewerDisabled"
-  viewerTooltip="Недостаточно прав!"
->
-  Primary
-</button>
+<div class="container">
+  <button
+    mat-raised-button
+    color="primary"
+    [isViewerDisabled]="isViewerDisabled"
+    viewerTooltip="Недостаточно прав!"
+  >
+    Click me!
+  </button>
 
-<button mat-button (click)="isViewerDisabled = !isViewerDisabled">
-  toggle
-</button>
+  <button mat-button (click)="isViewerDisabled = !isViewerDisabled">
+    toggle
+  </button>
+</div>
